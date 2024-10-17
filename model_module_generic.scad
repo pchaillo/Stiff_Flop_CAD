@@ -9,7 +9,8 @@ dec = 5; // length of one side of the equilateral triangle
 spacing = 3; // distance between two pairs of holes
 num_chambers = 6;
 num_cannula = 3; // = num_chambers // if needed
-cannula_placement_radius = lumen_radius; // inner cannula
+cannula_placement_radius = lumen_radius; // inner cannula = would place the cannula internaly
+//cannula_placement_radius = module_radius; // = external cannula
 sealing_thickness = 1; // thickness of the closure (sealing) of the cavities
 $fn = 20; // determines the number of faces, and thus the resolution of the rounded surfaces!
 
