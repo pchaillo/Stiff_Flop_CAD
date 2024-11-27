@@ -63,7 +63,7 @@ t_z_l = -1; // translation initiale du lumen
 
 // FIN DES PARAMETRES
 
-intersect(){ // #006
+//intersect(){ // #006
 
 difference(){ // #003
 
@@ -110,7 +110,7 @@ rotate([0,0,60+240])translate([0,mold_radius,e_fond])cylinder(hauteur,mold_suppo
 
 } // #003
 
-translate([-l_seal/2,-mold_radius-e_mold/2,0])cube([l_seal,l_seal,l_seal]);
+//translate([-l_seal/2,-mold_radius-e_mold/2,0])cube([l_seal,l_seal,l_seal]);
 
 
 /*translate([0,0,t_z_l]){
